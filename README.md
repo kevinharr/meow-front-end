@@ -6,6 +6,8 @@
 
 ### Contributors:
 
+- Hunter Long
+- David Stinson
 - [Kevin Harrington](https://github.com/kevinharr)
 
 
