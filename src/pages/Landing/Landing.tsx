@@ -1,5 +1,6 @@
-// stylesheets
+// assets and stylesheets
 import styles from './Landing.module.css'
+import logo from '../../assets/logo.svg'
 
 // types
 import { User } from '../../types/models'
@@ -17,7 +18,6 @@ const Landing = ({ user, handleLogout }: LandingProps): JSX.Element => {
     await authService.deleteAccount()
     handleLogout()
   }
-
 
   return (
     <main className={styles.container}>
