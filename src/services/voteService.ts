@@ -9,7 +9,7 @@ const BASE_URL = `${import.meta.env.VITE_BACK_END_SERVER_URL}/api/votes`
 
 async function castVote(formData: VoteManagerFormData): Promise<Profile> {
 	try {
-    	const res = await fetch(BASE_URL, {
+    const res = await fetch(BASE_URL, {
       method: 'PUT',
       headers: {
         'Authorization': `Bearer ${tokenService.getToken()}`,
