@@ -22,5 +22,5 @@
 - CSS
 
 #### Resources 💾
-- Graphics created by Hunter Long
+- Graphics created by Hunter Long.
 
