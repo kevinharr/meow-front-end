@@ -1,7 +1,8 @@
-//types
-import { Profile } from '../../types/models'
+//components
 import ProfileCard from '../../components/ProfileCard/ProfileCard';
+
 // types
+import { Profile } from '../../types/models'
 import { VoteManagerFormData } from '../../types/forms'
 
 interface ProfilesProps {
@@ -25,5 +26,6 @@ const Profiles = (props: ProfilesProps): JSX.Element => {
       )}
     </main>
   )
- 
+}
+
 export default Profiles
