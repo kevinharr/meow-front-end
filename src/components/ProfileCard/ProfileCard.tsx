@@ -7,8 +7,12 @@ import { Profile } from '../../types/models'
 // components
 import VoteManager from '../VoteManager/VoteManager'
 
+// types
+import { VoteManagerFormData } from '../../types/forms'
+
 interface ProfileCardProps {
-  profile: Profile;
+	profile: Profile;
+  handleVote: (formData: VoteManagerFormData) => void;
 }
 
 const ProfileCard = (props: ProfileCardProps): JSX.Element => {

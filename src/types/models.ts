@@ -21,3 +21,12 @@ export interface Profile {
   updatedAt: string;
   votesReceived: Vote[];
 }
+
+export interface User {
+  name: string;
+  email: string;
+  profile: { id: number };
+  id: number;
+  createdAt: string;
+  updatedAt: string;
+}
