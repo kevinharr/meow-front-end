@@ -1,6 +1,6 @@
 // assets and stylesheets
-import styles from './Landing.module.css'
 import logo from '../../assets/logo.svg'
+import styles from './Landing.module.css'
 
 // types
 import { User } from '../../types/models'
