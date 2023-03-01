@@ -23,6 +23,15 @@
 - HTML 
 - CSS
 
+Here is a [link](https://github.com/kevinharr/meow.git) to the backend GitHub repo.
+
+<br/>
+
 #### Resources 💾
 - Graphics created by Hunter Long.
+
+<br/>
+
+#### Icebox Items
+- N/A
 
